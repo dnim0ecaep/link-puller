@@ -1,0 +1,18 @@
+[package]
+name = "wirecutter_amazon_links"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+crossterm = "0.27"
+csv = "1"
+futures = "0.3"
+quick-xml = "0.31"
+ratatui = "0.26"
+regex = "1"
+reqwest = { version = "0.12", features = ["gzip", "brotli", "deflate", "cookies", "rustls-tls"] }
+scraper = "0.19"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
+url = "2"
